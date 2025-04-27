@@ -1,0 +1,45 @@
+.cabecalho {
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto-cabecalho {
+    justify-self: center;
+}
+
+.descricao-cabecalho {
+    justify-self: center;
+    font-style: italic;
+}
+
+article {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.principal {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+}
+
+.caixa-principal {
+    margin-left: 10px;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 5px;
+    border-color: black;
+}
+
+.botao-principal {
+    margin-left: 5px;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-radius: 5px;
+}
+
+.api {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 1px solid black;
+}

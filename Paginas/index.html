@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
-    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
 </head>
 <body>
 
     <header>
-        <nav>
-
+        <nav class="cabecalho">
+            <h1 class="texto-cabecalho">PROJETO CLIMA</h1>
+            <p class="descricao-cabecalho">Descubra o clima da cidade desejada.</p>
         </nav>
     </header>
 
     <article>
-        <section>
+        <section class="principal">
+            <h1 class="texto-principal">Digite a cidade:</h1>
+            <input class="caixa-principal" type="text" placeholder="Cidade">
+            <button class="botao-principal" type="submit">Procurar</button>
+        </section>
 
+        <section class="api">
+            <h1>Informações encontradas:</h1>
         </section>
     </article>
 
-    <footer>
-        
+    <footer class="rodape">
+
     </footer>
     
 </body>
