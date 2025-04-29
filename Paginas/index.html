@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clima</title>
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="../API/call.js"></script>
 </head>
 <body>
 
@@ -18,12 +20,23 @@
     <article>
         <section class="principal">
             <h1 class="texto-principal">Digite a cidade:</h1>
-            <input class="caixa-principal" type="text" placeholder="Cidade">
-            <button class="botao-principal" type="submit">Procurar</button>
+            <input id="cidade" class="caixa-principal" type="text" placeholder="Cidade">
+            <button class="botao-principal" type="submit" onclick="buscar()">Buscar</button>
         </section>
 
         <section class="api">
             <h1>Informações encontradas:</h1>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Cidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
         </section>
     </article>
 
