@@ -11,12 +11,13 @@ function buscar() {
         .then(response => {
             console.log(response.data);
             const nomeCidade = response.data.location.name;
+            const estadoCidade = response.data.location.region;
+            const paisCidade = response.data.location.country;
+            const localtimeCidade = response.data.location.localtime;
             const tbody = document.querySelector("tbody");
-            tbody.innerHTML = `<tr><td>${nomeCidade}</td></tr>`;
+            tbody.innerHTML = `<tr><td>${nomeCidade}</td><td>${estadoCidade}</td><td>${paisCidade}</td><td>${localtimeCidade}</td></tr>`;
         })
         .catch(error => {
             console.error(error);
         });
-
-    console.log(buscar);
 }
